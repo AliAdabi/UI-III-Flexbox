@@ -159,6 +159,49 @@ footer h6 {
 	display: flex;
 	justify-content: center;
 }
+.servicesTop{
+	
+	margin-left: 100px;
+	width : 80%;
+	margin-left: 50px;
+}
 .middle{
+	border-top: 1px solid gray;
 	display: flex;
+	justify-content: center;
+	width: 90%;
+	/* border: solid red; */
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.middle div{
+	padding: 20px;
+	margin : 40px;
+	background-color: rgb(209, 218, 218);
+	width: 40%;
+}
+.middle div a{
+	margin: 10px;
+	background-color: teal;
+
+}
+.bottomC{
+	border-top:1px solid black ;
+	width: 90%;
+	display: flex;
+	justify-content:space-evenly ;
+	
+}
+
+.bottomC .botdes {
+width: 40%;
+
+}
+.bottomC .botimg{
+	
+	margin:5px;
+}
+footer p{
+	text-align: center;
 }
