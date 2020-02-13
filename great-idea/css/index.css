@@ -141,3 +141,24 @@ footer h6 {
     text-align: center;
     padding-top: 30px;
 }
+/* we start the second page styling here */
+.serviceHead{
+	display: flex;
+	/* justify-content: space-between; */
+}
+.serviceHead .navbar{
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.navbar a{
+	display: flex;
+	justify-content: space-evenly;
+}
+.serviceimage1{
+	display: flex;
+	justify-content: center;
+}
+.middle{
+	display: flex;
+}
