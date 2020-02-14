@@ -60,24 +60,24 @@ h1, h2, h3, h4, h5 {
 }
 /* Your code starts here! */
 
-* {
-    box-sizing: border-box;
-}
+
 .container{
     margin: 0 auto;
     width: 900px;
 }
 header {
+	display: flex;
     padding: 20px 0;
 }
 header nav {
-    display: inline-block;
+	display: flex;
     width: 600px;
     vertical-align: top;
     padding-top: 15px;  
 }
 header nav a {
-    display: inline; 
+	display: flex;
+	justify-content: space-evenly;
     padding-right: 47px;
     font-size: 15px;
     text-decoration: none;
@@ -86,7 +86,6 @@ header nav a {
 }
 header img {
     width: 275px;
-    display: inline;
     padding-left: 50px;
 }
 .section1 {
@@ -117,16 +116,21 @@ section a {
     margin-bottom: 50px;
 }
 .features-about {
-    display: inline-block;
-    width: 445px;
+	justify-content: space-between;
+    width: 46%;
     padding: 30px 0;
 }
 .below-image {
-    display: inline-block;
-    width: 297px;
+
+    
+    width: 30%;
     padding: 30px 5px;
 }
 .center-section {
+	width : 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
     border-top: 2px solid lightgray;
     border-bottom: 2px solid black;
     padding: 15px 0;
@@ -137,6 +141,10 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
+}
+.foot p{
+	text-align: left;
+	
 }
 footer h6 {
     text-align: center;
