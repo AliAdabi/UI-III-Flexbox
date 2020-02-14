@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /* Your code starts here! */
+
 * {
     box-sizing: border-box;
 }
@@ -169,6 +170,7 @@ footer h6 {
 	border-top: 1px solid gray;
 	display: flex;
 	justify-content: center;
+	margin: 0 auto;
 	width: 90%;
 	/* border: solid red; */
 	display: flex;
@@ -188,6 +190,7 @@ footer h6 {
 }
 .bottomC{
 	border-top:1px solid black ;
+	margin: 0 auto;
 	width: 90%;
 	display: flex;
 	justify-content:space-evenly ;
